@@ -1,0 +1,38 @@
+/vendor/
+/node_modules/
+.env
+.env.backup
+.phpunit.result.cache
+composer.lock
+npm-debug.log
+yarn-error.log
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+/storage/*.key
+/storage/logs/*
+!storage/logs/.gitkeep
+/config/*.cache.php
+
+# Frontend build files
+/public/build/
+/public/hot
+/public/storage
+/storage/*.key
+/storage/logs/*
+!storage/logs/.gitkeep
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.eslintcache
+
+# Vite
+.vite/
+dist/ 
